@@ -1,0 +1,47 @@
+.contactContainer .contact-p{
+    color: #212ea0;
+    font-weight: 600;
+}
+.contactContainer .contact-h2{
+    color: #000f38
+}
+.formContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.formContainer h3 {
+    color: #000f38;
+}
+.formContainer .desc {
+    width: 50%;
+    margin-left: 25%;
+  line-height: 1.5;
+}
+.formContainer input {
+    margin-bottom: 2rem;
+}
+.formContainer button[type="submit"]{
+    width: 110px;
+    background-color: darkblue;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    margin-top: 2rem;
+}
+footer{
+    margin-top: 2rem;
+}
+@media (max-width: 767px){
+    .formContainer{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 768px) and (max-width: 1217px) {
+.formContainer{
+    grid-template-columns: 1fr;
+}
+}
