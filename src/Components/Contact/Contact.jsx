@@ -3,13 +3,13 @@ import "./Contact.css"
 const Contact = () => {
 
     const [result, setResult] = React.useState("");
-
+  const apiKey = import.meta.env.VITE_API_KEY
     const onSubmit = async (event) => {
       event.preventDefault();
       setResult("Sending....");
       const formData = new FormData(event.target);
   
-      formData.append("access_key", "95027c41-ba11-47de-9d9f-ade1969f7f99");
+      formData.append("access_key", apiKey);
   
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
