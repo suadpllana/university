@@ -1,5 +1,5 @@
 import React from "react";
-import "./Programs.css";
+import "./Programs.scss";
 import program1Image from "../../assets/program1.png";
 import program2Image from "../../assets/program2.png";
 import program3Image from "../../assets/program3.png";

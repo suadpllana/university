@@ -1,4 +1,4 @@
-.header{
+.header {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(#08003ab3, #08003ab3), url(../../assets/universityBackground.png);
@@ -8,17 +8,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.header .text {
-    width: 50%;
 
-text-align: center;
+    .text {
+        width: 50%;
+        text-align: center;
+
+        h1 {
+            font-size: 50px;
+        }
+    }
 }
-.text h1{
-    font-size: 50px;
-}
-@media (max-width: 767px){
-    .text h1 {
+
+@media (max-width: 767px) {
+    .header .text h1 {
         font-size: 25px;
     }
 }

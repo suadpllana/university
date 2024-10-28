@@ -1,6 +1,6 @@
 import React from 'react'
 
-import "./About.css"
+import "./About.scss"
 import aboutImage from "../../assets/aboutImage.png"
 import video from "../../assets/college.mp4"
 import { useState ,useRef } from 'react';
@@ -21,7 +21,7 @@ const About = () => {
       <div className="about">
         <div className="about-position">
         <img src={aboutImage} alt="" />
-        <p onClick={ () => setPlayStatus(true)}>▶️</p>
+        <p  onClick={ () => setPlayStatus(true)}>▶️</p>
         </div>
        
         <div>

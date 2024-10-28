@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Campus.css"
+import "./Campus.scss"
 import campusImage1 from "../../assets/campus1.png"
 import campusImage2 from "../../assets/campus2.png"
 import campusImage3 from "../../assets/campus3.png"
